@@ -1,0 +1,44 @@
+<partial src="includes/header-start.html"/>
+<title>台灣協和麒麟股份有限公司</title>
+<meta name="description" content="The Kyowa Kirin Group is a Japanese pharma group that develops innovative specialty drugs, to raise the health and well-being of people around the world. Since the early 2000s, Kyowa Kirin has been present in Malaysia with our innovative medicines designed to alleviate suffering and restore health to patients.">
+<meta property="og:title" content="">
+<meta property="og:description" content="The Kyowa Kirin Group is a Japanese pharma group that develops innovative specialty drugs, to raise the health and well-being of people around the world. Since the early 2000s, Kyowa Kirin has been present in Malaysia with our innovative medicines designed to alleviate suffering and restore health to patients.">
+<partial src="includes/header-title.html"/>
+<link rel="canonical" href="https://www.kyowakirin.com/tw/index.html">
+<partial src="includes/header-end.html"/>
+
+
+<div class="str-section-wrapper">
+<div class="str-section str-section-spacing">
+<div class="box-hdg2-wrapper">
+<div class="box-content">
+<div class="box-text"><h1 class="hdg-lv1-03">台灣協和麒麟股份有份公司</h1>
+<!-- /.box-text --></div>
+<h2 class="hdg-lv2-05">電話</h2>
+<div class="box-text"><p>(02)2564-2800</p>
+<!-- /.box-text --></div>
+<h2 class="hdg-lv2-05">傳真</h2>
+<div class="box-text"><p>(02)2560-1667</p>
+<!-- /.box-text --></div>
+<h2 class="hdg-lv2-05">辦公室地址</h2>
+<div class="box-text">
+<p>10448台北市中山區中山北路二段68號9樓</p>
+<p>9F., No.68, Sec. 2, Chung Shan North Road, Taipei 10448, Taiwan</p>
+<p>若您對我們公司的產品或網站有任何疑問，請點擊下面的按鈕，在您填寫完並送出諮詢表單後，我們將儘速回覆給您。</p>
+<!-- /.box-text --></div>
+<!-- content --></div>
+<!-- /.box-hdg2-wrapper --></div>
+<!-- /.str-section --></div>
+<!-- /.str-section-wrapper --></div>
+
+<div class="str-section-wrapper olc-button-section">
+<div class="str-section">
+<div class="box-button-olc">
+<div class="box-hdg2-wrapper">
+  <a href="https://faq.kirin.co.jp/form/kkc_18_cn.html" class="btn-olc-large-size no-arrow btn-orange-grey"><span>點擊此處連結至諮詢表單</span></a>
+<!-- /.box-hdg2-wrapper --></div>
+<!-- /.box-button-olc --></div>
+<!-- /.str-section --></div>
+<!-- /.str-section-wrapper --></div>
+
+<partial src="includes/footer.html"/>
