@@ -22,7 +22,7 @@ $(function () {
         var exceptionList = [ // 例外URL: モーダルのタイプ
 /*            {
                 hostname: 'www.kyowakirin.com',
-                pathname: '/tw/*',
+                pathname: '/tw/web/*',
                 type: 'type01'
             },
 */            {
@@ -63,7 +63,7 @@ $(function () {
         ];
         var modalTmp = '<div class="box-modal-outbound"><div class="box-modal-inner"><div class="modal-tmp"></div><button class="btn-modal-close" type="button"><span class="radius"><span>Close</span></span></button></div>';
         var modalContentTmp = {
-            type01: '<div class="box-text"><p>您將要連結至其它網站，</p><p>點擊「OK」後繼續。</p></div><div class="align-c"><a href="{{href}}" target="_blank" class="btn-03 btn-small">OK<img src="/tw/share/images/icon_link_blank_04.png" alt="Open in new window" class="icon-blank"></a></div>',
+            type01: '<div class="box-text"><p>您將要連結至其它網站，</p><p>點擊「OK」後繼續。</p></div><div class="align-c"><a href="{{href}}" target="_blank" class="btn-03 btn-small">OK<img src="/tw/web/share/images/icon_link_blank_04.png" alt="Open in new window" class="icon-blank"></a></div>',
             type02: '<div class="box-text"><p><em>Président</em></p><p>Fabienne Delaplace-Lavoix</p><p><em>Pour toute déclaration d’effet indésirable, contactez</em></p><p>pvfrance@kyowakirin.com</p><p><em>Pour toute demande d’information médicale, contactez</em></p><p>Infomed-FR@kyowakirin.com</p></div><div class="box-text mb-0"><p>Kyowa Kirin Pharma est certifié pour son activité d’information par démarchage ou prospection visant à la promotion des médicaments.</p><p>Pour toute appréciation sur la qualité de notre information promotionnelle, contactez pharmaceutique-fr@kyowakirin.com.</p></div>',
             type03: '<div class="box-text mb-0"><p>Kyowa Kirin USA Holdings, Inc.</p><p>Address	212 Carnegie Center, Suite 400, Princeton, NJ 08540 USA</p><p>Tel	+1-609-580-7400</p><p>Fax	+1-609-919-1111</p></div>',
 
@@ -83,7 +83,7 @@ $(function () {
             //th
                         type10: '<div class="box-offices-globalarea"><div class="box-offices-globalarea-outer"><div class="box-inner"><div class="box-panel"><!--Thailand --><a href="https://www.kyowakirin.com/thailand/index.html" target="_blank" class="panel outBoundModalLink"><div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_thailand_01.jpg" alt=""></div><div class="box-content"><h3 class="title"><span class="sub">THAILAND</span>Kyowa Kirin (Thailand) Co., Ltd. </h3><p class="box-text">323 United Center Building<br>20th floor, room 2003B<br>Silom road, Silom, Bangrak<br>Bangkok 10500 Thailand<br>Tel. +662 6312126-8<br>Fax. +662 6312125</p><p class="link-icon link-text"><span>Visit website</span></p></div><!-- /.panel Thailand--></a><!-- /.box-panel --></div><!-- /.box-inner --></div><!-- /.box-offices-globalarea-outer --></div>',
             //tw
-                        type11: '<div class="box-offices-globalarea"><div class="box-offices-globalarea-outer"><div class="box-inner"><div class="box-panel"><!--Taiwan --><a href="https://www.kyowakirin.com/tw/index.html" target="_blank" class="panel outBoundModalLink"><div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_taiwan_01.jpg" alt=""></div><div class="box-content"><h3 class="title"><span class="sub">TAIWAN</span>Kyowa Kirin Taiwan Co., Ltd.</h3><p class="box-text">9th floor, No. 68, Section 2<br>Zhongshan North Road, Zhongshan District<br>Taipei City, Taiwan 10448<br><br>富邦中山大樓9F<br>中山北路二段68號</p><p class="link-icon link-text"><span>Visit website</span></p></div><!-- /.panel Taiwan--></a><!-- /.box-panel --></div><!-- /.box-inner --></div><!-- /.box-offices-globalarea-outer --></div>',
+                        type11: '<div class="box-offices-globalarea"><div class="box-offices-globalarea-outer"><div class="box-inner"><div class="box-panel"><!--Taiwan --><a href="https://www.kyowakirin.com/tw/web/index.html" target="_blank" class="panel outBoundModalLink"><div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_taiwan_01.jpg" alt=""></div><div class="box-content"><h3 class="title"><span class="sub">TAIWAN</span>Kyowa Kirin Taiwan Co., Ltd.</h3><p class="box-text">9th floor, No. 68, Section 2<br>Zhongshan North Road, Zhongshan District<br>Taipei City, Taiwan 10448<br><br>富邦中山大樓9F<br>中山北路二段68號</p><p class="link-icon link-text"><span>Visit website</span></p></div><!-- /.panel Taiwan--></a><!-- /.box-panel --></div><!-- /.box-inner --></div><!-- /.box-offices-globalarea-outer --></div>',
 
         };
         var modalOverlayTmp = '<div class="box-modal-overlay is-hidden" aria-hidden="true"></div>';

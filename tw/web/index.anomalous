@@ -4,7 +4,7 @@
 <meta property="og:title" content="">
 <meta property="og:description" content="The Kyowa Kirin Group is a Japanese pharma group that develops innovative specialty drugs, to raise the health and well-being of people around the world. Its flagship business Kyowa Kirin Co., Ltd. creates antibody-based drugs for cancer, kidney disease, and immune system diseases.">
 <partial src="includes/header-title.html"/>
-<link rel="canonical" href="https://www.kyowakirin.com/tw/index.html">
+<link rel="canonical" href="https://www.kyowakirin.com/tw/web/index.html">
 <partial src="includes/header-end.html"/>
 
 <div class="str-section-wrapper">
